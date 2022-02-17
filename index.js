@@ -45,7 +45,7 @@ export default () => {
 
   function addInstancedMesh() {
     
-      mesh = new THREE.InstancedMesh(new THREE.PlaneGeometry( .5, .5 ), new THREE.MeshBasicMaterial({ color: 0xF7F307,transparent: true, map: texture, side: THREE.DoubleSide, depthWrite: false, blending: THREE.AdditiveBlending }), particleCount);
+      mesh = new THREE.InstancedMesh(new THREE.PlaneGeometry( .5, .5 ), new THREE.MeshBasicMaterial({ color: 0xC10F86,transparent: true, map: texture, side: THREE.DoubleSide, depthWrite: false, blending: THREE.AdditiveBlending }), particleCount);
       
       app.add(mesh);
       setInstancedMeshPositions(mesh);
