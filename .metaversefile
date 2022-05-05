@@ -1,3 +1,5 @@
 {
+  "name": "eth-coin",
+  "description": "eth-coin",
   "start_url": "index.js"
 }
